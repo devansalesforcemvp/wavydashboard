@@ -59,6 +59,7 @@ const data1 = {
 
 function Content() {
 	return (
+		<	div className="everything">
 		<div className={styles.contentcontainer}>
 			<div className={styles.contentwrapper}>
 				<div className={styles.tabs}>
@@ -68,17 +69,17 @@ function Content() {
 				</div>
 				<div className={styles.tabs}>
 					<div className={styles.categories}>
-						<h2>Customers</h2>
+						<h2>Contacts</h2>
 					</div>
 				</div>
 				<div className={styles.tabs}>
 					<div className={styles.categories}>
-						<h2>Users</h2>
+						<h2>Candidates</h2>
 					</div>
 				</div>
 				<div className={styles.tabs}>
 					<div className={styles.categories}>
-						<h2>Projects</h2>
+						<h2>Leads</h2>
 					</div>
 				</div>
 			</div>
@@ -93,6 +94,7 @@ function Content() {
 					<Doughnut data={data1} width={400} height={400} />
 				</div>
 			</div>
+		</div>
 		</div>
 	);
 }

@@ -12,9 +12,10 @@ import {
 
 function LeftNavbar() {
 	return (
+		<nav className="navbar">
 		<div className={styles.navcontainer}>
 			<div className={styles.logo}>
-				<h2>Streamline</h2>
+				<h3>Fullstackdesk</h3>
 			</div>
 			<div className={styles.wrapper}>
 				<ul>
@@ -44,7 +45,7 @@ function LeftNavbar() {
 							icon={faHeart}
 							style={{ width: "18px", cursor: "pointer" }}
 						/>{" "}
-						<a href="#">Favourite</a>
+						<a href="#">Favorite</a>
 					</li>
 					<li>
 						<FontAwesomeIcon
@@ -63,6 +64,7 @@ function LeftNavbar() {
 				</ul>
 			</div>
 		</div>
+		</nav>
 	);
 }
 

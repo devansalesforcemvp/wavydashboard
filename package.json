@@ -3,15 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next -p 3002",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -p 3002"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-brands-svg-icons": "^5.15.3",
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
     "@fortawesome/react-fontawesome": "^0.1.14",
+    "bulma": "^0.9.4",
     "chart.js": "^3.3.2",
     "next": "10.2.3",
     "next-images": "^1.7.0",

@@ -3,7 +3,6 @@
     width:200px;
     height:100%;
     background-color: #fff;
-    box-shadow: 3px 0px 6px 0px rgba(246, 246, 246, 0.75);
 
  }
 
@@ -34,7 +33,6 @@
     list-style: none;
     font-size: 20px;
     text-decoration: none;
-    opacity: .6;
 }
 .wrapper>ul>li:active{
     color: #000;
@@ -45,7 +43,11 @@
     font-size: 22px;
     transition: 0.2s;
 }
-
+.wrapper>ul>li>a{
+    color: black;
+    font-size: 22px;
+    transition: 0.2s;
+}
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
 .navcontainer{
@@ -80,7 +82,7 @@
     display: flex;
     flex-wrap: wrap;
     height:70px;
-    background-color: rgb(255, 255, 255);
+    background: #191c29;
     margin-left:200px;
     /* z-index: -1; */
    
@@ -146,15 +148,15 @@ content of dashboard start */
     align-items: center;
     width:250px;
     height:100px;
-    background-color: #fff;
+    background: #191c29;
     border-radius: 10px;
     cursor: pointer;
-    box-shadow: 3px 0px 6px 0px rgba(246, 246, 246, 0.75);
+    box-shadow: 3px 0px 6px 0px rgba(12, 104, 224, 0.75);
 }
 
 
 .categories>h2{
-    color: rgb(70, 105, 70);
+    color: #ffffff;
 }
 
 
